@@ -140,7 +140,7 @@ body {
 .team-member .social-media {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     margin-top: 3px;
 }
 
@@ -157,4 +157,8 @@ body {
 li a .color:hover {
     background-color: aqua;
     border-radius: 25%;
+}
+
+.main-color {
+    color: #F6F1F1;
 }
