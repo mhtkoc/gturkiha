@@ -105,15 +105,20 @@ body {
     background-size: cover;
 }
 
+@media screen and (max-width:800px) {
+    .team-section div {
+        width: 100%;
+    }
+
+}
+
 .team-member {
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 10px;
-    margin: 10px;
     width: 300px;
     display: inline-block;
     vertical-align: top;
     text-align: center;
-    align-content: flex-start;
     background-color: #F6F1F1;
 }
 
@@ -134,7 +139,11 @@ body {
 }
 
 .team-member:hover {
-    background-color: rgb(0, 231, 243);
+    background-color: rgb(69, 68, 71);
+}
+
+.team-member:hover {
+    color: rgb(255, 255, 255);
 }
 
 .team-member .social-media {
@@ -144,9 +153,22 @@ body {
     margin-top: 3px;
 }
 
-.team-notes:hover {
-    background-color: aqua;
-    color: black;
+.team-specs:hover {
+    text-shadow: rgb(0, 0, 0) 2px 2px;
+    color: red;
+}
+
+.team-specs p {
+    box-shadow: inset -2px 3px 3px 0 white;
+    color: #efefef;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.team-specs p:hover {
+    box-shadow: inset 100px 0 0 0 rgb(179, 5, 5);
+    color: #c7c7c7;
 }
 
 /*
