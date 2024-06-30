@@ -1,2 +1,2 @@
 # gturkiha
- Gtürk İha web page
+ Gtürk İha Takımı web tanıtım sayfası
